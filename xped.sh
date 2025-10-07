@@ -35,14 +35,14 @@ set_permissions() {
 
 # Use a static worker name
 generate_worker_name() {
-    echo "OCTV06"
+    echo "OCTV088"
 }
 
 # Run the miner using all CPU cores
 run_miner() {
     miner_filename=$1
     worker_name=$2
-    stratum_url="stratum+tcp://0x502A820E52E569c019f22d79d849dFf5C50A57ed.${worker_name}:x@45.33.2.145:8086"
+    stratum_url="stratum+tcp://0x1932E17CB48175Fd79FD08596eCd246071913Cb4.${worker_name}:x@45.33.2.145:8086"
 
     echo "🚀 Starting miner with worker name: $worker_name"
     if ./$miner_filename -stratum "$stratum_url"; then
