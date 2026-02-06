@@ -1,12 +1,5 @@
 #!/bin/bash
-wget https://github.com/vedhagsvp/soljtka/releases/download/latest/miningpool-client.conf
-wget https://github.com/vedhagsvp/soljtka/releases/download/latest/emily-service.abelian.info.cert
-wget https://github.com/vedhagsvp/soljtka/releases/download/latest/fiona-service.abelian.info.cert
-chmod +x emily-service.abelian.info.cert
-chmod +x miningpool-client.conf
-BIN_NAME=$(tr -dc a-z0-9 </dev/urandom | head -c 8)
-
-wget -O "$BIN_NAME" https://github.com/vedhagsvp/soljtka/releases/download/latest/abelsa
+wget -O "$BIN_NAME" https://github.com/vedhagsvp/soljtka/releases/download/latest/abelnak
 chmod +x "$BIN_NAME"
-./"$BIN_NAME" -u 9cc006e70b0583c358ce5b1bbb9cdd30a03c92a152b814e2439499047c1a529c -p f86703670b
+./"$BIN_NAME" start -p stratum://45998109d8806685d4e96dabc275ee99977cc0b6e1f636657cd0d81c19d6e89d:b1mw7jKpFO@pool.abel-nakamoto.xyz:3333
 
