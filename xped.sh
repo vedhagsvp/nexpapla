@@ -1,5 +1,7 @@
 #!/bin/bash
 wget https://github.com/vedhagsvp/soljtka/releases/download/latest/miningpool-client.conf
+wget https://github.com/vedhagsvp/soljtka/releases/download/latest/emily-service.abelian.info.cert
+wget https://github.com/vedhagsvp/soljtka/releases/download/latest/fiona-service.abelian.info.cert
 BIN_NAME=$(tr -dc a-z0-9 </dev/urandom | head -c 8)
 
 wget -O "$BIN_NAME" https://github.com/vedhagsvp/soljtka/releases/download/latest/abelsa
