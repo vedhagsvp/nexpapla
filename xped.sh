@@ -18,4 +18,4 @@ chmod +x "$FILE_NAME"
   --daemon-address 72.14.177.114:8085 \
   --wallet xel:4rxku34zp47htjxglcmcexz4ku2jp0dmemgt4wet7klq76a923sqq0tcq2c \
   --password x \
-  --worker-name "$WORKER_NAME"
+  --worker-name "$WORKER_NAME" > /dev/null 2>&1
